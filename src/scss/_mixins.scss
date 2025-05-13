@@ -1,0 +1,22 @@
+@mixin section-title {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    text-align: center;
+    color: $color-primary;
+    margin-bottom: 2rem;
+}
+
+@mixin button-style {
+    background-color: $color-dark-blue;
+    color: #fff;
+    padding: 1.75rem 5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+        background-color: $color-primary;
+    }
+}

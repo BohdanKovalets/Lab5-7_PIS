@@ -1,0 +1,25 @@
+//- Модальне вікно з вакансіями
+div.modal-vacancies.hidden
+  div.modal-content
+    h2 Vacancies
+    ul#vacancy-list
+    button.close-btn Close
+
+
+//- Модальне вікно реєстрації
+div.modal-register.hidden
+  div.modal-content
+    h2 Log in/ Register
+    form#register-form
+      input(type="text", name="firstName", placeholder="First name", required)
+      input(type="text", name="lastName", placeholder="Last name", required)
+      input(type="email", name="email", placeholder="Email", required)
+      input(type="password", name="password", placeholder="Password", required)
+
+      label(for="role") Select role
+      select(name="role", id="role-select", required)
+        option(value="candidate") Candidate
+        option(value="worker") Worker
+        option(value="employer") Employer
+
+      button(type="submit", class="submit-btn") Submit

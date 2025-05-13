@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Ivan",
+    "lastName": "Ivanov",
+    "email": "ivanov@gmail.com",
+    "password": "ivanov1111",
+    "role": "worker"
+  },
+  {
+    "firstName": "Andriy",
+    "lastName": "Shevchenko",
+    "email": "sheva@gmail.com",
+    "password": "sheva7",
+    "role": "employer"
+  },
+  {
+    "firstName": "Bohdan",
+    "lastName": "Kovalets",
+    "email": "kovalets@gmail.com",
+    "password": "kovalets11",
+    "role": "worker"
+  }
+]

@@ -1,0 +1,96 @@
+.footer {
+    background-color: $color-bg;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 1px solid #ddd;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: $container-width;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.footer-block {
+    flex: 1 1 300px;
+    text-align: center;
+    color: $color-text;
+}
+
+.footer-logo {
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.footer-icon {
+    height: 20%;
+    width: 12%;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.footer-block h3 {
+    font-size: $font-size-lg;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: $color-primary;
+}
+
+.footer-block p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer-block {
+        flex: 1 1 100%;
+    }
+
+    .footer-icon {
+        height: 32px;
+        width: 32px;
+    }
+    .footer-icons{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-icon {
+        height: 28px;
+        width: 28px;
+    }
+
+    .footer-block h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-block p {
+        font-size: 0.9rem;
+    }
+}

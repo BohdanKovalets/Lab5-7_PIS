@@ -1,0 +1,83 @@
+.about {
+    position: relative;
+    background: url('/public/about-bg.jpg') center/cover no-repeat;
+    width: 100%;
+    height: 60vh;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.about-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: $color-accent;
+}
+
+.about-content p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: white;
+}
+
+@media(max-width: 1300px){
+    .about-content{
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-content{
+        padding: 0 2rem;
+    }
+    .about-content h2 {
+        font-size: 2.8rem;
+    }
+
+    .about-content p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content h2 {
+        font-size: 2.3rem;
+    }
+
+    .about-content p {
+        font-size: 1.1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+}
