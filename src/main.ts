@@ -37,7 +37,7 @@ vacanciesBtn?.addEventListener('click', async () => {
     const vacancies = await response.json();
 
     if (list) {
-      list.innerHTML = ''; // очищення
+      list.innerHTML = ''; 
       vacancies.forEach((v: { title: string; location: string }) => {
         const li = document.createElement('li');
         li.textContent = `${v.title} (${v.location})`;
@@ -60,7 +60,6 @@ const roleSelect = document.getElementById('role-select') as HTMLSelectElement;
 const registerModal = document.querySelector('.modal-register') as HTMLElement;
 const selectBtns = document.querySelectorAll('.who-btn');
 
-// Відкриття модалки з переданою роллю
 selectBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const role = btn.getAttribute('data-role');
@@ -69,7 +68,6 @@ selectBtns.forEach((btn) => {
   });
 });
 
-// Відправка форми
 registerForm?.addEventListener('submit', async (e) => {
   e.preventDefault();
 

@@ -11,7 +11,6 @@ app.use(express.json());
 
 const usersFile = path.join(__dirname, 'src', 'data', 'users.json');
 
-// POST /api/register
 app.post('/api/register', (req, res) => {
   const newUser = req.body;
 

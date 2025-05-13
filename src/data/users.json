@@ -19,5 +19,12 @@
     "email": "kovalets@gmail.com",
     "password": "kovalets11",
     "role": "worker"
+  },
+  {
+    "firstName": "Dmytro",
+    "lastName": "Kovalenko",
+    "email": "koval@gmail.com",
+    "password": "koval228",
+    "role": "worker"
   }
 ]
