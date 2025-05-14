@@ -26,5 +26,19 @@
     "email": "koval@gmail.com",
     "password": "koval228",
     "role": "worker"
+  },
+  {
+    "firstName": "Nazar",
+    "lastName": "Symonenko",
+    "email": "sm@gmail.com",
+    "password": "sm1234",
+    "role": "worker"
+  },
+  {
+    "firstName": "Denys",
+    "lastName": "Franko",
+    "email": "fr@gmail.com",
+    "password": "f1777",
+    "role": "worker"
   }
 ]
